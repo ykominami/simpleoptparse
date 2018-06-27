@@ -1,0 +1,3 @@
+# simpleoptparse-gem
+
+OptionParserのユーティリティクラス
