@@ -3,10 +3,6 @@ require "optparse"
 
 module Simpleoptparse
   class Simpleoptparse
-    def self.xinit()
-      puts "xinit"
-    end
-    
     def self.parse( argv , opts , banner , version , release , &block )
       parser = OptionParser.new
       parser.banner = banner
