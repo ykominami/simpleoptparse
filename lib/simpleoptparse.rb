@@ -3,7 +3,7 @@ require "optparse"
 
 module Simpleoptparse
   class Simpleoptparse
-    def initialize( argv , opts , banner , version , release , &block )
+    def self.parse( argv , opts , banner , version , release , &block )
       parser = OptionParser.new
       parser.banner = banner
       parser.version = version
