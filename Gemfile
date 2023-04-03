@@ -9,7 +9,7 @@ gemspec
 
 gem 'bundler'
 gem 'rake'
-gem 'activesupport' , '~> 7.0.4.1'
+gem 'activesupport' , '~> 7.0.4.3'
 
 group :test, optional: true do
   gem 'rspec'
