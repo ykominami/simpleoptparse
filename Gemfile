@@ -7,9 +7,9 @@ source 'https://rubygems.org'
 # Specify your gem's dependencies in simpleoptparse.gemspec
 gemspec
 
+gem 'activesupport', '~> 7.0.7.2'
 gem 'bundler'
 gem 'rake'
-gem 'activesupport' , '~> 7.0.7.2'
 
 group :test, optional: true do
   gem 'rspec'
@@ -22,5 +22,3 @@ end
 group :development do
   gem 'yard'
 end
-
-
