@@ -18,7 +18,7 @@ Bundler/OrderedGems:
 # This cop supports safe autocorrection (--autocorrect).
 Layout/SpaceBeforeComma:
   Exclude:
-#    - 'Gemfile'
+    - 'Gemfile'
 
 # Offense count: 1
 # This cop supports safe autocorrection (--autocorrect).
