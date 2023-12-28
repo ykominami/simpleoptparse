@@ -16,7 +16,7 @@ module Simpleoptparse
         parser.parse!(argv)
       rescue(OptionParser::InvalidOption) => e
         puts e
-        puts parser.to_s
+        puts parser
         exit 20
       end
     end
