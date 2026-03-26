@@ -104,7 +104,7 @@ DEPENDENCIES
   rubocop-rake
   rubocop-rspec
   simpleoptparse!
-  yard (~> 0.9.37)
+  yard (~> 0.9.38)
 
 BUNDLED WITH
    2.5.1
